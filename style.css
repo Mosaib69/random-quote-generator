@@ -28,8 +28,8 @@ h1 {
 display: flex;
 flex-direction: column;
 gap: 1rem;
-/* height: 150px; */
-max-width: 60vw;
+height: 150px;
+width: 40vw;
 padding: 2rem;
 border: none;
 border-radius: 12px;
@@ -54,7 +54,16 @@ button {
   background-color: rgb(238, 96, 238);
 }
 
-@media(max-width : 500px){
+@media(max-width : 570px){
+  .quote-container {
+    width: 90vw;
+    gap: 1rem;
+    height: 130px;
+    padding: 1rem;
+  }
+  h4 {
+    font-size: 16px;
+  }
   p {
     font-size: 16px;
     font-weight: 500;
